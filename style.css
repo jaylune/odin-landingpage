@@ -52,6 +52,45 @@ ul {
     flex: 1;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.one {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+}
+
+.subhead {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 6px;
+    border: none;
+    padding: 4px 16px;
+}
+
+#header-image {
+    width: 500px;
+    margin: 25px;
+}
+
+#header-text {
+    max-width: 350px;
+}
+
 /*
 up next, start styling footer.
 then start styling "sections"
