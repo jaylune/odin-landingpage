@@ -4,6 +4,8 @@ body {
     min-height: 100vh;
     overflow: hidden;
     margin: 0;
+
+    font-family: sans-serif;
 }
 
 a {
@@ -90,6 +92,40 @@ button {
 #header-text {
     max-width: 350px;
 }
+
+.two {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-items: space-evenly;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+    text-align: center;
+}
+
+.card-img {
+    max-width: 200px;
+}
+
+.card-txt {
+    max-width: 150px;
+}
+
+
 
 /*
 up next, start styling footer.
